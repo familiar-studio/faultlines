@@ -27,6 +27,16 @@ html, body{
 *{
   box-sizing: border-box;
 }
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #B41D8D;
+}
+::selection {
+  color: white;
+  background: #B41D8D;
+}
+
+
 .logo-wrapper{
   width: 100vw;
   height: 100vh;
